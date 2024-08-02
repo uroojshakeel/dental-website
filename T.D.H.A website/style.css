@@ -1,0 +1,62 @@
+body{
+background-color:black;
+color:aliceblue;
+}
+
+header {
+     display: flex;
+    align-items: center;
+    font-size: 100%;
+    gap:15%;
+}
+
+.banner{
+    color:white;
+    height: 40px;  
+     text-align: center;
+    padding-top: 5px;
+    background:linear-gradient(to right,rgb(3, 3, 86),rgb(7, 29, 139),rgb(38, 38, 186))
+  }
+  .li{
+list-style: none;
+margin-right: 80px;
+display: inline;
+text-align: center;  
+list-style-type: none;
+
+}
+
+.main{
+grid-row: auto;
+place-content: center;
+display: inline;
+display: flex;
+justify-content: center;
+gap: 10px;
+margin: 20px;
+
+  }
+
+.one{
+   
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: auto;
+    background: linear-gradient(to bottom right , rgb(3, 3, 86),rgb(7, 29, 139),rgb(38, 38, 186))
+  }
+
+.two{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: auto;
+    background: linear-gradient(to bottom right, rgb(3, 3, 86),rgb(7, 29, 139),rgb(38, 38, 186))
+}
+.three{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width:auto;
+  background: linear-gradient(to bottom right, rgb(3, 3, 86),rgb(7, 29, 139),rgb(38, 38, 186))
+}
